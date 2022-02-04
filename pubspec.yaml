@@ -1,0 +1,20 @@
+name: oauth2_client_aes_storage
+description: An AES encrypted storage backend for oauth2_client
+version: 0.1.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  encrypt: ^5.0.0
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: ^5.0.0
+  oauth2_client: ^2.0.0
+  shared_preferences: ^2.0.0
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
