@@ -10,8 +10,8 @@ dependencies:
   encrypt: ^5.0.0
   flutter:
     sdk: flutter
-  flutter_secure_storage: ^5.0.0
-  oauth2_client: ^2.0.0
+  flutter_secure_storage: ">=5.0.0 <7.0.0"
+  oauth2_client: ">=2.0.0 <4.0.0"
   shared_preferences: ^2.0.0
 
 dev_dependencies:
